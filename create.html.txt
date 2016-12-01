@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<title> Register </title>
+<h1>Register </h1>
+
+<form method="GET" action="create.py">
+	Username:<br>
+	<input type="text" name="user" required>
+	<br>
+	Password:<br>
+	<input type="password" name="pass" required>
+	<br>
+<input type="submit" value="Create Account">
+    
+</html>
+

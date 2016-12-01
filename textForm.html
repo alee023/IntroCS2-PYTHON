@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<!-- 
+     Stolen from the
+    Template for FRONT-END 
+     by Clyde "Thluffy" Sinclair 
+  -->
+
+<html>
+<head>
+<title>Formal Textification</title>
+</head>
+
+<body>
+
+  <h3>Redisplays text according to user input given.</h3>
+  Works as long as you have a radio button pressed.
+  <br>
+
+  <h4>Usage: </h4>
+  Enter text into the text field. Click on one of the radio buttons. Click on any of the checkboxes if you wish.
+  <br>
+  The computer will take your text, and will format it according to what you chose.
+  <br><br>
+
+  <h4>ProTips:</h4>
+  <ol>
+    <li> Make sure to enter text.</li>
+    <li> Make sure to click a radio button.</li>
+  </ol>
+
+  <form name="input" method="GET" action="textForm.py">
+    <br>
+    Text to change: <input type="text" name="text1" required>
+    <br>
+    <br>
+    <input type="radio" name="type1" value="rot13" required>
+    ROT13
+    <input type="radio" name="type1" value="reverse">
+    Reverse
+    <br>
+    <br>
+    <input type="checkbox" name="bold" value="bold">
+    <b>BOLD</b>
+    <input type="checkbox" name="italics" value="italics">
+    <i>Italics</i>
+    <input type="checkbox" name="underline" value="underline">
+    <u>Underline</u>
+    <input type="checkbox" name="allofthem" value="allofthem">
+    <b><i><u>ALL OF THEM</b></i></u>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>

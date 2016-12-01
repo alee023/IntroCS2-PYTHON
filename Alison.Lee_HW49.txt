@@ -1,0 +1,6 @@
+# Alison Lee
+# IntroCS2 pd8
+# HW49 -- Correlation is not Causation
+# 2016-05-18
+
+We plan to correlate the number of AP tests taken by each school collectively and how well they did with the sat results for that same school. We can do this by first making a function to find the corresponding school code. Then print the number of students who took an ap out of the total number of students in the school. Right next to this we will print the sat results for that school. All this data will be presented in a chart.

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title> Login Page </title>
+<body>
+<h1> Log In </h1>
+<div>
+	<form method="GET" action="login.py">
+		Username:<br>
+		<input type="text" name="user" required>
+		<br>
+		Password:<br>
+		<input type="password" name="pass" required>
+		<br><br>
+		<input type="submit" value="Login">
+	</form>
+	<br>
+		<form method="GET" action="create.html">
+		<input type="submit" value="Register">
+	</form>
+
+</body
+</html>
